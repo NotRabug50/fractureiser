@@ -8,7 +8,7 @@ kötü amaçlı yazılımı tarafından etkilendiğinizi doğrulamanız gerekmek
 ### Hala var mı??
 **Hayır. yani, sanki**  
 Şu anda, mevcut bilgilerimize göre, `fractureiser` virüsünün mevcut 
-halka açık mod(paket)lerden tamamen temizlendiğine inanıyoruz.
+halka açık mod(paket)lerinden tamamen temizlendiğine inanıyoruz.
 
 Mevcut önerimiz, bu sayfadaki stage 2 denetleyicisini çalıştıran oyuncuların güvenli bir şekilde oynamaya devam edebileceğidir. 
 Bununla birlikte, CurseForge ve Modrinth'te mod yüklemeleri tekrar çevrimiçi olduğundan, 
@@ -18,7 +18,7 @@ Bu tür bir durumun gelecekte tekrar yaşanmaması için ilgili taraflarla ileti
 
 Oynamak istiyorsanız, lütfen bu sayfadaki teşhis adımlarını ve enfekte olup olmadığınıza dair izlemeyi içeren bölümleri geçirin.
 
-### Page Structure
+### Sayfa Yapısı
 * [Ne Oldu?](#aslında-ne-oldu)
 * [Enfekte miyim?](#enfekte-miyim)
 * [Enfekteyim, Ne Olacak?](#enfekteyim-ne-olacak)
@@ -133,17 +133,17 @@ systemctl --user daemon-reload
 
 #### Betikler
 
-*Eğer PowerShell veya Bash komut dosyası nasıl çalıştırılacağını bilmiyorsanız, bu size yönelik değildir.*
+*Eğer PowerShell veya Bash komut dosyası nasıl çalıştırılacağını bilmiyorsanız, bu size göre değildir.*
 Ayrıca, Stage 2'yi kontrol etmek için otomatik PowerShell veya Bash komut dosyaları PrismLauncher
 web sitesinde de mevcuttur. Eğer teknik bilgiye sahipseniz, bunları çalıştırmak için kullanabilirsiniz. 
-Overwolf (Curseforge'un ana şirketi) ayrıca bir C# Stage 2 tespit aracı yayınlamıştır:
+Overwolf (Curseforge'un ana şirketi) ayrıca bir C# kullanarak Stage 2 tespit aracı yayınlamıştır:
 https://github.com/overwolf/detection-tool
 
 ## Enfekteyim, Ne Olacak?
 
-**ÖNEMLİ**: Şu anda bu yazılımın tam olarak ne yapabileceğini veya niyetinin ne olduğunu bilmiyoruz, bu yüzden tam bir çözüm yolu bulunana kadar aşırı dikkatli olunmalıdır. Burada belirtilenler sadece *bildiğimiz* şeylerdir - eğer önemli bir şey bulunursa, takımın iletişimini güncellemek için haberleri takip etmeniz önemlidir.
+**ÖNEMLİ**: Şu anda bu yazılımın tam olarak ne yapabileceğini veya niyetinin ne olduğunu bilmiyoruz, bu yüzden tam bir çözüm yolu bulunana kadar aşırı dikkatli olun. Burada belirtilenler sadece *bildiğimiz* şeylerdir - eğer önemli bir şey bulunursa, takım iletişimini güncel tutmak için haberleri takip etmeniz önemlidir.
 
-Eğer sistemde fractureiser'a ait stage 2 dosyalarını bulursanız, stage 3 kodunun çalıştığını ve bilgisayarınızın enfekte olduğunu düşünmek oldukça muhtemeldir. Şimdi en iyi seçeneğiniz, o sistemin *tamamen tehlikede* olduğunu varsaymaktır. Aşağıdaki adımları takip etmelisiniz:
+Eğer sistemde fractureiser'a ait stage 2 dosyalarını bulursanız, stage 3 kodunun çalıştığını ve bilgisayarınızın enfekte olduğu aklınızda bulunsun. En iyi seçeneğiniz, o sistemin *tamamen tehlikede* olduğunu varsaymaktır. Aşağıdaki adımları takip etmelisiniz:
 
 * Kaybetmek istemediğiniz her şeyi bir flash sürücü veya harici diske yedekleyin (zaten düzenli olarak yapmanız gereken bir işlemdir!).
 * Ayrı bir cihaz kullanarak, eski makinede oturum açtığınız tüm hizmetlerin şifrelerini değiştirin (Discord, e-posta vb.). Mümkünse [BitWarden](https://bitwarden.com) gibi bir parola yöneticisi kullanın.
@@ -165,7 +165,7 @@ Eğer stage 2 tespit aracı tarafından herhangi bir şey bulunmadıysa, muhteme
 ## Sıkça Sorulan Sorular
 
 ### CurseForge hacklendi mi?
-CurseForge kendisi kompromize edilmemiştir, sadece bireysel kullanıcılar etkilenmiştir. Bu bir CurseForge sorunu değildir, sadece bu olayın meydana geldiği yerdir. CurseForge, [makale](https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/) yayınlamış ve durumu kendi açılarından açıklamıştır. Ayrıca karşı önlemler almaya çalışmaktadırlar.
+CurseForge kendisi kompromize edilmemiştir, sadece bireysel kullanıcıları ilgililendirir. Bu bir CurseForge sorunu değildir, sadece bu olayın meydana geldiği yerdir. CurseForge, [makale](https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/) yayınlamış ve durumu kendi açılarından açıklamıştır. Ayrıca karşı önlemler almaya çalışmaktadırlar.
 
 ### Modrinth sağlam mı?
 Modrinth son 10 ay boyunca yapılan tüm yüklemelerin tam taramasını gerçekleştirdi ve herhangi bir enfekte projeye rastlanmadı. 
@@ -182,7 +182,7 @@ Aslında, stage 0 enfeksiyonunu belirlemek için yapılan erken sezgisel analizl
 Gerçekçi olarak, böyle bir önlemin platform ölçeğinde uygulanması mümkün değildir çünkü niyeti gizlemek için kodun düzenlenebileceği sonsuz farklı yöntem bulunmaktadır.
 
 ### Hangi anti-virüsler bunu yakalıyor?
-Şu anda konuştuğumuz sırada yeni olanlar ekleniyor, şimdilik AV'ye güvenmek yerine manuel doğrulamayı yapmak en iyisidir.
+Şu anda konuştuğumuz sırada yenileri ekleniyor, şimdilik AV'ye güvenmek yerine manuel doğrulamayı yapmak en iyisidir.
 
 ### Çok-Oyunculu güvenli mi?
 Evet, başka bir yerden mod indirmezseniz, çok oyunculu bir sunucu aracılığıyla enfekte olamazsınız.
@@ -197,20 +197,18 @@ Aşağıya göz atın.
 
 **Şu an hiçbir modun güvenliğini garanti edemeyiz.**
 
-Virüsün stage3 işlevlerinden biri, bilgisayarınızdaki mümkün olduğunca çok .jar dosyasını enfekte etmektir. Bu, Minecraft'in kendisi (vanilya/modlu), Minecraft modları, Spigot eklentileri ve ilişkisiz Java uygulamaları dahil olmak üzere **tüm `.jar` dosyalarını** enfekte edebilir. Dolayısıyla, bilgisayarınızda virüsün stage3 bölümü bulunuyorsa, indirdiğiniz bir modun "güvenli" olup olmadığı önemli değildir - o mod *enfekte olacaktır*. Fractureiser'ın sonraki stagelerini tespit edin ve kaldırın.
+Virüsün stage3 işlevlerinden biri, bilgisayarınızdaki mümkün olduğunca çok .jar dosyasını enfekte etmektir. Bu, Minecraft'in kendisi (vanilya/modlu), Minecraft modları, Spigot eklentileri ve ilişkisiz Java uygulamaları dahil olmak üzere **tüm `.jar` dosyalarını** enfekte edebilir. Dolayısıyla, bilgisayarınızda virüsün stage3 bölümü bulunuyorsa, indirdiğiniz bir modun "güvenli" olup olmadığı önemli değildir - o mod zaten *enfekte olmuştur*. Fractureiser'ın sonraki stagelerini tespit edin ve kaldırın.
 
 Şu anda, CurseForge'da bilinen tüm enfekte modlar kaldırılmıştır. CurseForge, [bilinen enfekte modların bir listesini](https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/) (sayfanın altında) yayınlamış ve bunları web sitesinden kaldırmıştır. Modrinth, son 10 ayı taradı ve enfekte mod bulunamadı.
 
 Bu, gizlice aradan sıyrılanların olmadığını *garanti etmez*. Bir jar dosyasının fractureiser'ın stage0'ını içerip içermediğini kontrol etmek için, şu an için modlarla ilgili herhangi bir şeyi indirirken genel olarak dikkatli olmak için [Enfekte Miyim?](#enfekte-miyim) bölümünü kontrol edin ve son derece dikkatli olun.
 
 ### Enfeksyon ne kadar yaygın?
-
 CurseForge, enfeksiyon dönemi boyunca yaklaşık 6.000 kez enfekte dosyaların indirildiğini bildirmektedir. CF'un Discord duyurusundan alıntı yapacak olursak:
 > Perspektif sağlamak için, bu, CurseForge'un Minecraft için günlük indirmelerinin yaklaşık %0,015'ine denk gelmektedir.
 
 ### Birisi 1.20 olayını bozmak mı istedi?
-
-Bu, bir tesadüf gibi görünüyor. Bu kötü amaçlı yazılım kampanyası, 1.20 sürümünün yayınlandığı sabah geniş çapta ortaya çıkmadan önce uzun bir süredir aktifti.
+Bu, bir tesadüf gibi görünüyor. Bu kötü amaçlı yazılım rekabeti, 1.20 sürümünün yayınlandığı sabah geniş çapta ortaya çıkmadan önce uzun bir süredir aktifti.
 
 ## Teknik SSS
 
@@ -218,15 +216,15 @@ Bu, bir tesadüf gibi görünüyor. Bu kötü amaçlı yazılım kampanyası, 1.
 
 **Hayır.**
 
-["Windows Sandbox"](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)içerisinden *manuel* bir kaçış *denemesi* için stage3'de kod bulunmaktadır. Bu otomatik olarak gerçekleşmez. Eğer virüs Windows Sandbox'tan çalıştırılırsa, panoyu etkilemeye çalışarak sizi malware'ın kısayolunu yapıştırmaya kandırmaya çalışacaktır.
+["Windows Sandbox"](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)içerisinden *manuel* bir kaçış *denemesi* için stage3'de kod bulunmaktadır. Bu otomatik olarak gerçekleşmez. Eğer virüs Windows Sandbox'tan çalıştırılırsa, panoyu kullanarak sizi manipüle ederek kötü amaçlı yazılımın kısayolunu yapıştırmaya çalışacaktır.
 
-Bu tür "pano kaçışı" yöntemleri yeni değildir ve panoyu ana işletim sistemi ile konuk işletim sistemi arasında paylaşmayarak kolayca engellenebilir. "Windows Sandbox" gibi daha ağır bir sanal makine kullanın ve VirtualBox'un "Guest Addons" veya Hyper-V'nin "integration services" gibi özelliklerini devre dışı bırakın.
+Bu tür "pano kaçışı" yöntemleri yeni değildir ve panoyu ana işletim sistemi ile guest işletim sistemi arasında paylaşmayarak kolayca engellenebilir. "Windows Sandbox" gibi daha ağır bir sanal makine kullanın ve VirtualBox'un "Guest Addons" veya Hyper-V'nin "integration services" gibi özelliklerini devre dışı bırakın.
 
-(*Gerçek* sanal makine kaçışı zafiyetleri milyonlarca dolara değer taşır ve bunlar Minecraft çocuklarına harcanacak kadar basit bir şekilde kullanılmaz. Ayrıca, malware'ın yazarının başarılı bir programcı olmadığına dair nedenlerimiz bulunmaktadır.)
+(*Gerçek* sanal makine kaçışı zafiyetleri milyonlarca dolar değerindedir ve bunlar Minecraft çocuklarına harcanacak kadar basit bir şekilde kullanılmaz. Ayrıca, kötü amaçlı yazılımın geliştircisinin başarılı bir programcı olmadığına dair nedenlerimiz bulunmaktadır.)
 
 ### Ağ'ı yaymaya çalışıyor mu?
 
-Bildiğimiz kadarıyla, fractureiser ağı yayma işlevselliği içermemektedir, ancak tamamen mümkün değildir. Çalıştığımız bir güvenlik araştırmacısı bir uyarı aldı, ancak bu tamamen ilgisiz bir kötü amaçlı yazılım ile ilgiliydi ve tesadüfen benzer bir dosya adı kullanıyordu. Bu sadece yanlış bir alarmdı.
+Bildiğimiz kadarıyla, fractureiser ağı yayma işlevselliği içermemektedir, ancak imkansız değildir. Çalıştığımız bir güvenlik araştırmacısı bir uyarı aldı, ancak bu tamamen ilgisiz bir kötü amaçlı yazılım ile ilgiliydi ve tesadüfen benzer bir dosya adı kullanıyordu. Bu sadece yanlış bir alarmdı.
 
 ### CurseForge ve Modrinth bu konu hakkında ne yapıyor?
 
@@ -234,7 +232,7 @@ CurseForge, açık kaynaklı bir [stage2/3 tespit aracı](https://github.com/ove
 
 Modrinth, son 10 ay boyunca yüklenen modları ve eklentileri stage0 enfeksiyonları için taradı ve herhangi bir enfeksiyon bulunmadı.
 
-Her iki platform da mod gönderim sürecine bir tür otomatik "virüs taraması" süreci eklemeyi düşünmektedir. Bunun zor tarafı, bu tür Java tabanlı kötü amaçlı yazılımların genellikle özel olarak oluşturulmasıdır.
+Her iki platform da mod gönderim sürecine bir tür otomatik "virüs taraması" süreci eklemeyi düşünmektedir. Bu zor, çünkü bunun gibi Java kötü amaçlı yazılımları genellikle özel olarak tasarlanmışstır.
 
 ### Güvenlik duvarımda/yönlendirme tablomda hangi IP adreslerini ve URL'leri engellemeliyim?
 
@@ -242,30 +240,29 @@ Fractureiser ile ilgili kodların, geniş bir port numarası yelpazesinde aşağ
 
 * Stage0 enfekte modlarda sabitlenmiş adres ve ilk tespit edilen komut kontrol sunucusu: `85.217.144.130`
 * İkinci tespit edilen komut kontrol sunucusu: `107.189.3.101`
-* Stage1 tarafından kullanılmaya çalışılan yedek URL ve stage2 komut kontrol ana bilgisayar adı: `files-8ie.pages.dev`
+* Stage1 tarafından kullanılmaya çalışılan yedek URL ve stage2 komut kontrol alan adı: `files-8ie.pages.dev`
 
 Ayrıca, kötü amaçlı yazılımın eski bir sürümünden kaynaklanabilecek bilinmeyen nedenlerle `v2202209151437200088` 
-ana bilgisayar adına 25575 portu üzerinden bağlanma girişimlerine dair kanıtlar da bulunmaktadır.
+alan adına 25575 portu üzerinden bağlanma girişimleri gözlenmiştir.
 
-Aşağıda, skyrage ile ilgili güvenlik duvarına eklenmesi gereken bazı adresler bulunmaktadır (tekrar belirtmek gerekirse, *çok* muhtemeldir ki skyrage bu vektör aracılığıyla hiç kimsenin bilgisayarına indirilmemiştir, ancak bu adreslerden hiçbir şey iyi gelmez):
+Aşağıda, skyrage ile ilgili güvenlik duvarına eklenmesi gereken bazı adresler bulunmaktadır (tekrar belirtmek gerekirse, *çok* muhtemeldir ki skyrage bu vektör aracılığıyla hiç kimsenin bilgisayarına indirilmemiştir, ancak bu adreslerden hiçbir hayır gelmez):
 
 * `95.214.27.172`
 * `connect.skyrage.de`
 * `t23e7v6uz8idz87ehugwq.skyrage.de`
 * `qw3e1ee12e9hzheu9h1912hew1sh12uw9.skyrage.de`
-* *Muhtemelen sadece `skyrage.de`'nin tamamını engelleyin*
+* *Muhtemelen sadece `skyrage.de`'nin tamamını engellemeniz yetecektir.*
 
 Bu adreslere kesinlikle ziyaret etmemeniz gerektiğini söylemeye gerek olmadığını düşünüyorum.
 
-### Modunuzun diğer dosyaları indirmesini CurseForge/Modrinth kurallarına aykırı hale getirebilir miyiz?
+### Modunuzun dosya indirmesini CurseForge/Modrinth kurallarına aykırı hale getirebilir miyiz?
+CurseForge'da zaten kötü amaçlı yazılım yüklemek yasak. Bunun yanı sıra, bir modun dosya indirmesi gibi birçok yasal kullanım durumu da bulunmaktadır ve bu tür bir sınırlama da bu durumları engelleyebilir.
 
-CurseForge'da zaten kötü amaçlı yazılım yüklemek yasak. Bu tür engellemelerin, bu durumda bir modun dosya indirmesi için birçok meşru kullanım durumu da engelleyeceği unutulmamalıdır.
-
-### Mod yükleyicinin kendisine bir tür "antivirüs" veya "korumalı alan" eklemek mümkün müdür?
+### Mod yükleyicinin kendisine bir tür "antivirüs" veya "sandbox" eklemek mümkün müdür?
 
 "Antivirüs": Muhtemelen, normal antivirüslerin algılayamamasının aynı nedenlerinden dolayı etkili olmayacaktır. Antivirüsler yalnızca bilinen kötü amaçlı yazılımları algılayabilir, bilinmeyen kötü amaçlı yazılımları değil.
 
-Kum Sandığı (Sandbox): Bir sınıfın yüklenmeden önce "bu sınıf 'güvenli' kod içeriyor mu?" gibi bir kontrolün yapılması, kötü amaçlı yazılım geliştiricileri ile mod yükleyici geliştiricileri arasında bir kedi-fare oyununu tetiklemek için harika bir yöntemdir.
+Kum Sandığı (Sandbox): Bir sınıf yüklenmeden önce "bu sınıf güvenli kod içeriyor mu?" gibi bir kontrol eklemek, kötü amaçlı yazılım geliştiricileri ile mod yükleyici geliştiricileri arasında bir kedi-fare oyununu tetiklemek için harika bir yoldur.
 
 Bir Java kodunun belirli bir sınıfın (örneğin, `URLClassLoader`) kullanımını yasaklamak oldukça zordur çünkü aynı sınıfa `Class.forName` ile de referans verebilirsiniz (bu durumda birçok meşru kullanım durumu bulunur). Eğer bunları yasaklarsanız veya engellersek, genellikle sınıf yolu üzerinde `Class.forName` çağrısı yapacak başka bir şey bulabilirsiniz ve bu "araçlar"ı ortadan kaldırmaya çalışmak bitmek bilmeyen bir fare yakalama oyununa dönüşebilir.
 
